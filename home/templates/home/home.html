@@ -1,0 +1,60 @@
+{% extends 'base/base.html' %}
+
+{% block main %}
+
+<div class="row">
+    <div class="col-2 pl-0 align-left" style="margin-left:0">
+        <ul class="nav flex-column mt-1 bg-dark list-group">
+            <li class="list-group-item bg-dark border-0 active">Menu principal</li>
+          <li class="nav-item list-group-item">
+            <a class="nav-link" href="#">Cadastros</a>
+          </li>
+          <li class="nav-item list-group-item">
+            <a class="nav-link" href="#">Colaboradores</a>
+          </li>
+          <li class="nav-item list-group-item">
+            <a class="nav-link" href="#">Vendas</a>
+          </li>
+          <li class="nav-item list-group-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Compras</a>
+          </li>
+          <li class="nav-item list-group-item">
+            <a class="nav-link" href="#">Financeiro</a>
+          </li>
+        </ul>
+    </div>
+
+    <div class="mt-1 ml-5 col-6 row align-items-center pl-5">
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Lembretes</th>
+              <th scope="col">Data</th>
+              <th scope="col">Contato</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
